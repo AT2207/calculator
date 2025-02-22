@@ -12,15 +12,15 @@ const Calculator = () => {
       return 
       }      
     setInput((prev) => prev + val)    
-  };
+  }
 
   const handleCalculate = () => {
-      setInput(eval(input)); 
-  };
+      setInput(eval(input))
+  }
 
   const handleClear = () => {
     setInput("");
-  };
+  }
 
   return (
     <>
@@ -46,7 +46,7 @@ const Calculator = () => {
         </tbody>
       </table>
     </>
-  );
-};
+  )
+}
 
 export default Calculator;
