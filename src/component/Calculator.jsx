@@ -49,6 +49,6 @@ const Calculator = () => {
   )
 }
 
-////Commented by madam
+////Commented 
 
 export default Calculator;
